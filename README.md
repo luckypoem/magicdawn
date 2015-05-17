@@ -1,3 +1,4 @@
-嗯,gist 都被墙了 ...
 
-放些小东西吧...
+# Personal repo
+
+Gist 被墙了。。。
