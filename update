@@ -2,5 +2,5 @@
 
 git add --all
 git commit -am "update ..."
-git push github master
+git push origin master
 echo "done"
