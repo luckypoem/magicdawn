@@ -1,1 +1,0 @@
-/Users/magicdawn/study/webstorm-projects/async-test/index.js
