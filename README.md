@@ -1,6 +1,6 @@
 # magicdawn
 
-个人学习 / 代码 / 总结 / 读书笔记 see [Issues](issues)
+个人学习 / 代码 / 总结 / 读书笔记 see [Issues](../../issues)
 
 ## TOC
 
