@@ -1,6 +1,11 @@
 #!/usr/bin/env sh
 
+# add
 git add --all
-git commit -am "update ..."
+
+# commit
+update_at=$(date +"%Y-%m-%d %H:%M:%S")
+git commit -am "update at $update_at"
+
+# push
 git push origin master
-# echo "done"
