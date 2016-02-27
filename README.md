@@ -5,8 +5,8 @@
 ## TOC
 
 ### Language
-- c #49
-- cc #61
+- [c](../../issues/49)
+- [cc](../../issues/61)
 
 ### FE
 
