@@ -1,5 +1,12 @@
 #!/usr/bin/env sh
 
+# check
+EXPECT_PWD='magicdawn_magicdawn'
+if [ $(basename $(pwd)) != "$EXPECT_PWD" ]; then
+  echo 'run `update` in a `magicdawn_magicdawn` directory'
+  exit
+fi
+
 # backup zshrc
 cp ~/.zshrc $(pwd)/dot_files/
 
