@@ -1,5 +1,8 @@
 #!/usr/bin/env sh
 
+# backup zshrc
+copy ~/.zshrc $(pwd)/dot_files/
+
 # add
 git add --all
 
