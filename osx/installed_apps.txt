@@ -1,7 +1,7 @@
 total 80
-drwxrwxr-x+ 85 root       admin   2890  2 28 17:52 .
+drwxrwxr-x+ 86 root       admin   2924  3  1 11:32 .
 drwxr-xr-x  35 root       wheel   1258  2 11 00:52 ..
--rw-rw-r--   1 root       admin  28676  2 24 20:44 .DS_Store
+-rw-rw-r--   1 root       admin  28676  3  1 11:32 .DS_Store
 -rw-r--r--   1 root       wheel      0  8 23  2015 .localized
 drwxrwxr-x@  7 root       admin    238 10  3 13:34 Adobe Bridge CS6
 drwxrwxr-x@ 13 root       admin    442  7 14  2015 Adobe Photoshop CS6
@@ -25,7 +25,7 @@ drwxr-xr-x@  3 root       wheel    102  2 11 00:53 FaceTime.app
 drwxr-xr-x@  3 root       wheel    102 12 27 09:57 Font Book.app
 drwxr-xr-x@  3 root       wheel    102 12 27 09:57 Game Center.app
 drwxr-xr-x@  3 magicdawn  admin    102 12  6 19:05 GitBook Editor.app
-drwxrwxr-x@  3 magicdawn  admin    102  2 20 11:12 Google Chrome.app
+drwxrwxr-x@  3 magicdawn  admin    102  3  2 11:23 Google Chrome.app
 drwxr-xr-x@  3 magicdawn  admin    102  3 14  2015 Haroopad.app
 drwxr-xr-x@  3 root       wheel    102 12 27 09:57 Image Capture.app
 drwxr-xr-x   3 magicdawn  admin    102 11 11 00:28 IntelliJ IDEA 15.app
@@ -81,6 +81,7 @@ drwxr-xr-x+  3 root       wheel    102 12 27 09:57 iTunes.app
 drwxr-xr-x   3 magicdawn  staff    102  1 20 13:11 mpv.app
 -rw-r--r--   1 magicdawn  admin     24 11 20 11:44 my_log.txt
 drwx------@  3 magicdawn  admin    102  1 26 19:27 优酷.app
+drwxr-xr-x@  3 magicdawn  admin    102  2 29 13:14 大象.app
 drwxr-xr-x   3 root       wheel    102  2  6 22:17 爱奇艺.app
 drwxr-xr-x   3 root       wheel    102 12 26 13:04 有道词典.app
 drwxr-xr-x@  3 magicdawn  admin    102  1 24  2014 百度云同步盘.app
