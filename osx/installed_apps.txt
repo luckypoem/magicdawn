@@ -25,7 +25,7 @@ drwxr-xr-x@  3 root       wheel    102  2 11 00:53 FaceTime.app
 drwxr-xr-x@  3 root       wheel    102 12 27 09:57 Font Book.app
 drwxr-xr-x@  3 root       wheel    102 12 27 09:57 Game Center.app
 drwxr-xr-x@  3 magicdawn  admin    102 12  6 19:05 GitBook Editor.app
-drwxrwxr-x@  3 magicdawn  admin    102  3  2 11:23 Google Chrome.app
+drwxrwxr-x@  3 magicdawn  admin    102  3  8 08:59 Google Chrome.app
 drwxr-xr-x@  3 magicdawn  admin    102  3 14  2015 Haroopad.app
 drwxr-xr-x@  3 root       wheel    102 12 27 09:57 Image Capture.app
 drwxr-xr-x   3 magicdawn  admin    102 11 11 00:28 IntelliJ IDEA 15.app
