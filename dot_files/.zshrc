@@ -88,16 +88,8 @@ source $ZSH/oh-my-zsh.sh
 export NVM_DIR="/Users/magicdawn/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-export JAVA_HOME=`/usr/libexec/java_home`
-
-# JAVA 
-export PATH=$JAVA_HOME/bin:$PATH
-
-# maven
-export PATH=$PATH:/Users/magicdawn/Programs/apache-maven-3.0.3/bin
-
 # golang
-export PATH=$PATH:/usr/local/go/bin
+# export PATH=$PATH:/usr/local/go/bin
 export GOPATH=/Users/magicdawn/gopath
 
 ### Added by the Heroku Toolbelt
@@ -105,11 +97,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 # cario
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig
-
-# rust racer
-export RUST_SRC_PATH=~/Downloads/soft/rust/rustc-1.1.0/src
-## racer
-export PATH=$PATH:~/study/rust/racer/target/release
 
 # npm version `patch` `minor` `major`
 for x in patch minor major; do
@@ -143,8 +130,8 @@ function npm-proxy(){
 }
 
 # NVM
-# export NVM_NODEJS_ORG_MIRROR="http://npm.taobao.org/mirrors/node/"
-# export NVM_IOJS_ORG_MIRROR='http://npm.taobao.org/mirrors/iojs'
+export NVM_NODEJS_ORG_MIRROR="http://npm.taobao.org/mirrors/node/"
+export NVM_IOJS_ORG_MIRROR='http://npm.taobao.org/mirrors/iojs'
 
 # vscode
 code () { 
@@ -154,14 +141,9 @@ code () {
 # [[ -s $(brew --prefix)/etc/profile.d/autojump.sh  ]] &&
 #  . $(brew --prefix)/etc/profile.d/autojump.sh
 
-# z.sh
-# . ~/z.sh
-
 # 当前目录
 export PATH=$PATH:.
 
 # DOT_FILES
 # Example: wget -q $DOT_FILES/.eslintrc
 export DOT_FILES='https://raw.githubusercontent.com/magicdawn/magicdawn/master/dot_files'
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

@@ -1,0 +1,13 @@
+# magicdawn
+
+个人学习 / 代码 / 总结 / 读书笔记 see [Issues](../../issues)
+
+## TOC
+{% for ca in toc %}
+### {{ ca.title }}
+
+{% for item in ca.items -%}
+- [{{ item.title }}](../../issues/{{ item.num }})
+{% endfor %}
+
+{%- endfor %}
