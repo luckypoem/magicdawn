@@ -147,3 +147,11 @@ export PATH=$PATH:.
 # DOT_FILES
 # Example: wget -q $DOT_FILES/.eslintrc
 export DOT_FILES='https://raw.githubusercontent.com/magicdawn/magicdawn/master/dot_files'
+
+# 
+# git use fengjr
+#
+git-config-fengjr(){
+  git config user.name "岑涛"
+  git config user.email "tao.cen@fengjr.com"
+}

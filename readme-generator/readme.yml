@@ -3,12 +3,17 @@ Languages:
   - C++: 61
   - Bash: 40
 
+Frameworks:
+  - Express: 24
+  - koa: 19
+  - Sails: 72
+
+Database:
+  - mysql: 54
+  - redis: 63
+
 Tools:
   - curl: 73
 
-Frameworks:
-  - Express: 24
-  - koa: 19 
-  - Sails: 72
 
 Books:

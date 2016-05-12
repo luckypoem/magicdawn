@@ -10,15 +10,20 @@
 - [C++](../../issues/61)
 - [Bash](../../issues/40)
 
-### Tools
-
-- [curl](../../issues/73)
-
 ### Frameworks
 
 - [Express](../../issues/24)
 - [koa](../../issues/19)
 - [Sails](../../issues/72)
+
+### Database
+
+- [mysql](../../issues/54)
+- [redis](../../issues/63)
+
+### Tools
+
+- [curl](../../issues/73)
 
 ### Books
 
