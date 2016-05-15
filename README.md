@@ -9,6 +9,7 @@
 - [C](../../issues/49)
 - [C++](../../issues/61)
 - [Bash](../../issues/40)
+- [ES6](../../issues/44)
 
 ### Frameworks
 

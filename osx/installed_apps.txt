@@ -1,5 +1,5 @@
 total 40
-drwxrwxr-x+ 69 root       admin   2346  5 10 20:08 .
+drwxrwxr-x+ 70 root       admin   2380  5 14 14:39 .
 drwxr-xr-x  30 root       wheel   1088  5  7 05:46 ..
 -rw-rw-r--   1 root       admin  12292  5 10 20:11 .DS_Store
 -rw-r--r--   1 root       wheel      0  8  1  2015 .localized
@@ -29,6 +29,7 @@ drwxr-xr-x@  3 root       wheel    102  5  7 05:48 Launchpad.app
 drwxr-xr-x@  3 root       wheel    102  5  7 05:48 Mail.app
 drwxr-xr-x@  3 root       wheel    102  5  7 05:48 Maps.app
 drwxr-xr-x@  3 root       wheel    102  5  7 05:48 Messages.app
+drwxrwxr-x   3 root       wheel    102  5 14 14:39 Microsoft Word.app
 drwxr-xr-x@  3 root       wheel    102  5  7 05:48 Mission Control.app
 drwxr-xr-x@  3 magicdawn  admin    102  2 29 20:06 Navicat Premium.app
 drwxr-xr-x@  3 magicdawn  admin    102  4 28 15:21 NeteaseMusic.app
