@@ -17,6 +17,10 @@
 - [koa](../../issues/19)
 - [Sails](../../issues/72)
 
+### FE
+
+- [angular](../../issues/70)
+
 ### Database
 
 - [mysql](../../issues/54)

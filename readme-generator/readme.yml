@@ -9,6 +9,9 @@ Frameworks:
   - koa: 19
   - Sails: 72
 
+FE:
+  - angular: 70
+
 Database:
   - mysql: 54
   - redis: 63

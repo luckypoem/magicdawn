@@ -1,5 +1,5 @@
 total 40
-drwxrwxr-x+ 70 root       admin   2380  5 14 14:39 .
+drwxrwxr-x+ 70 root       admin   2380  5 18 00:40 .
 drwxr-xr-x  30 root       wheel   1088  5  7 05:46 ..
 -rw-rw-r--   1 root       admin  12292  5 10 20:11 .DS_Store
 -rw-r--r--   1 root       wheel      0  8  1  2015 .localized
@@ -39,7 +39,7 @@ drwxr-xr-x   3 root       wheel    102 11 11  2015 Pages.app
 drwxr-xr-x@  3 root       wheel    102  5  7 05:48 Photo Booth.app
 drwxr-xr-x@  3 root       wheel    102  5  7 05:48 Photos.app
 drwxr-xr-x@  3 root       wheel    102  5  7 05:48 Preview.app
-drwxr-xr-x   3 root       wheel    102  5  6 20:48 QQ.app
+drwxr-xr-x   3 root       wheel    102  5 18 00:40 QQ.app
 drwxr-xr-x@  3 magicdawn  admin    102 10  9  2015 QQMacMgr.app
 drwxr-xr-x@  3 root       wheel    102  5  7 05:48 QuickTime Player.app
 drwxr-xr-x@  3 magicdawn  admin    102  1  1  2014 Rar Sharp.app
@@ -67,5 +67,5 @@ drwxr-xr-x   3 root       wheel    102  5  7 07:16 优酷.app
 drwxr-xr-x@  3 magicdawn  admin    102  5  3 18:04 钉钉.app
 drwxr-xr-x@  3 magicdawn  admin    102  5  5 10:42 爱奇艺.app
 drwxr-xr-x   3 root       wheel    102  5  8 08:26 爱壁纸HD.app
-drwxr-xr-x   3 root       wheel    102  5  7 07:11 有道词典.app
+drwxr-xr-x   3 root       wheel    102  5 18 00:39 有道词典.app
 drwxr-xr-x   3 root       wheel    102  5  7 07:17 爱奇艺视频.app
