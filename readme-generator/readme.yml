@@ -9,15 +9,27 @@ Frameworks:
   - koa: 19
   - Sails: 72
 
+Node:
+  - v8: 68
+  - gyp: 67
+  - libuv: 50
+
 FE:
+  - JS tricks: 33
   - angular: 70
+  - vue: 34
+  - react: 8
+  - webpack: 7
 
 Database:
   - mysql: 54
   - redis: 63
+  - mongo: 51
 
 Tools:
   - curl: 73
-
+  - nginx: 58
+  - Atom: 55
 
 Books:
+  - "Linux/Unix 系统编程手册": 62

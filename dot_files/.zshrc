@@ -130,28 +130,30 @@ function npm-proxy(){
 }
 
 # NVM
-export NVM_NODEJS_ORG_MIRROR="http://npm.taobao.org/mirrors/node/"
-export NVM_IOJS_ORG_MIRROR='http://npm.taobao.org/mirrors/iojs'
-
-# vscode
-code () { 
-  VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $* ; 
-}
-
-# [[ -s $(brew --prefix)/etc/profile.d/autojump.sh  ]] &&
-#  . $(brew --prefix)/etc/profile.d/autojump.sh
-
-# 当前目录
-export PATH=$PATH:.
+export NODEJS_ORG_MIRROR="http://npm.taobao.org/mirrors/node/"
+export IOJS_ORG_MIRROR='http://npm.taobao.org/mirrors/iojs'
 
 # DOT_FILES
 # Example: wget -q $DOT_FILES/.eslintrc
 export DOT_FILES='https://raw.githubusercontent.com/magicdawn/magicdawn/master/dot_files'
 
-# 
+#
 # git use fengjr
 #
 git-config-fengjr(){
   git config user.name "岑涛"
   git config user.email "tao.cen@fengjr.com"
 }
+
+#
+# JAVA
+#
+export JAVA_HOME="/Library/Java/Home"
+export CLASS_PATH="$JAVA_HOME/lib"
+# already works on osx
+# export PATH="$PATH:$JAVA_HOME/bin"
+
+#
+# 当前目录, 保持在最后
+#
+export PATH=$PATH:.
