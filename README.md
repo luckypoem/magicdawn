@@ -46,3 +46,4 @@
 
 - [Linux/Unix 系统编程手册](../../issues/62)
 - [TCP/IP 详解卷一: 协议](../../issues/82)
+- [HTTP 权威指南](../../issues/25)
