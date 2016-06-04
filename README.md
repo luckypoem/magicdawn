@@ -3,12 +3,28 @@
 
 ## TOC
 
+### Books
+
+- [Linux/Unix 系统编程手册](../../issues/62)
+- [TCP/IP 详解卷一: 协议](../../issues/82)
+- [HTTP 权威指南](../../issues/25)
+
 ### Languages
 
 - [C](../../issues/49)
 - [C++](../../issues/61)
 - [Bash](../../issues/40)
 - [ES6](../../issues/44)
+- [java](../../issues/not yet)
+- [golang](../../issues/not yet)
+- [python](../../issues/not yet)
+- [php](../../issues/not yet)
+
+### Database
+
+- [mysql](../../issues/54)
+- [redis](../../issues/63)
+- [mongo](../../issues/51)
 
 ### Frameworks
 
@@ -30,20 +46,8 @@
 - [react](../../issues/8)
 - [webpack](../../issues/7)
 
-### Database
-
-- [mysql](../../issues/54)
-- [redis](../../issues/63)
-- [mongo](../../issues/51)
-
 ### Tools
 
 - [curl](../../issues/73)
 - [nginx](../../issues/58)
 - [Atom](../../issues/55)
-
-### Books
-
-- [Linux/Unix 系统编程手册](../../issues/62)
-- [TCP/IP 详解卷一: 协议](../../issues/82)
-- [HTTP 权威指南](../../issues/25)

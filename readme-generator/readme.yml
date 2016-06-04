@@ -1,8 +1,22 @@
+Books:
+  - "Linux/Unix 系统编程手册": 62
+  - "TCP/IP 详解卷一: 协议": 82
+  - "HTTP 权威指南": 25
+
 Languages:
   - C: 49
   - C++: 61
   - Bash: 40
   - ES6: 44
+  - java: not yet
+  - golang: not yet
+  - python: not yet
+  - php: not yet
+
+Database:
+  - mysql: 54
+  - redis: 63
+  - mongo: 51
 
 Frameworks:
   - Express: 24
@@ -21,17 +35,7 @@ FE:
   - react: 8
   - webpack: 7
 
-Database:
-  - mysql: 54
-  - redis: 63
-  - mongo: 51
-
 Tools:
   - curl: 73
   - nginx: 58
   - Atom: 55
-
-Books:
-  - "Linux/Unix 系统编程手册": 62
-  - "TCP/IP 详解卷一: 协议": 82
-  - "HTTP 权威指南": 25
