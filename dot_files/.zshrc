@@ -89,8 +89,8 @@ export NVM_DIR="/Users/magicdawn/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # golang
-# export PATH=$PATH:/usr/local/go/bin
 export GOPATH=/Users/magicdawn/gopath
+export PATH=$PATH:$GOPATH/bin
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
@@ -157,3 +157,18 @@ export CLASS_PATH="$JAVA_HOME/lib"
 # 当前目录, 保持在最后
 #
 export PATH=$PATH:.
+
+
+#
+# try to be humble
+#
+alias pls=sudo
+alias please=sudo
+
+#
+# pyenv
+#
+if which pyenv > /dev/null; then
+  eval "$(pyenv init -)";
+fi
+

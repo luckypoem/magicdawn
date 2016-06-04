@@ -1,8 +1,5 @@
 # magicdawn
-
-个人学习 / 代码 / 总结 / 读书笔记 see [Issues](../../issues)
-
-*个人学习之用, 请勿参与评论. 谢谢*
+个人学习 / 代码 / 总结 / 读书笔记, 请勿参与评论. see [Issues](../../issues)
 
 ## TOC
 
@@ -48,3 +45,4 @@
 ### Books
 
 - [Linux/Unix 系统编程手册](../../issues/62)
+- [TCP/IP 详解卷一: 协议](../../issues/82)
