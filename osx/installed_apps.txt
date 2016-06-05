@@ -1,7 +1,7 @@
 total 64
-drwxrwxr-x+ 90 root       admin   3060  6  4 10:59 .
+drwxrwxr-x+ 91 root       admin   3094  6  6 00:32 .
 drwxr-xr-x  32 root       wheel   1156  5 22 14:16 ..
--rw-rw-r--   1 root       admin  26628  6  4 10:59 .DS_Store
+-rw-rw-r--   1 root       admin  26628  6  6 00:33 .DS_Store
 -rw-r--r--   1 root       wheel      0  8  1  2015 .localized
 drwxr-xr-x   3 magicdawn  staff    102 10 31  2014 AliWangwang.app
 drwxr-xr-x@  3 root       wheel    102  5 20 23:39 App Store.app
@@ -17,6 +17,7 @@ drwxr-xr-x@  3 root       wheel    102  5  7 05:48 Chess.app
 drwxr-xr-x@  3 magicdawn  admin    102  1 29 01:01 CleanMyMac 3.app
 drwxr-xr-x@  3 root       wheel    102  5 20 23:39 Contacts.app
 drwxr-xr-x@  3 root       wheel    102  5  7 05:48 DVD Player.app
+drwxr-xr-x   3 magicdawn  admin    102  4 12 16:53 Dash.app
 drwxr-xr-x@  3 root       wheel    102  5  7 05:48 Dashboard.app
 drwxr-xr-x@  3 root       wheel    102  5  7 05:48 Dictionary.app
 drwxr-xr-x   4 root       wheel    136  5 26 17:18 Docker
