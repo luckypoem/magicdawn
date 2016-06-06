@@ -1,7 +1,12 @@
-Books:
+CS:
   - "Linux/Unix 系统编程手册": 62
   - "TCP/IP 详解卷一: 协议": 82
   - "HTTP 权威指南": 25
+
+Database:
+  - mysql: 54
+  - redis: 63
+  - mongo: 51
 
 Languages:
   - C: 49
@@ -13,20 +18,20 @@ Languages:
   - python: not yet
   - php: not yet
 
-Database:
-  - mysql: 54
-  - redis: 63
-  - mongo: 51
+Node:
+  - v8: 68
+  - gyp: 67
+  - libuv: 50
 
 Frameworks:
   - Express: 24
   - koa: 19
   - Sails: 72
 
-Node:
-  - v8: 68
-  - gyp: 67
-  - libuv: 50
+Tools:
+  - curl: 73
+  - nginx: 58
+  - Atom: 55
 
 FE:
   - JS tricks: 33
@@ -34,8 +39,3 @@ FE:
   - vue: 34
   - react: 8
   - webpack: 7
-
-Tools:
-  - curl: 73
-  - nginx: 58
-  - Atom: 55
