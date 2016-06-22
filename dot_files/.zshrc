@@ -51,7 +51,7 @@ ZSH_THEME="steeef"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git node npm gulp brew fasd)
+plugins=(git node npm gulp brew fasd hub)
 
 # User configuration
 
@@ -172,3 +172,7 @@ if which pyenv > /dev/null; then
   eval "$(pyenv init -)";
 fi
 
+#
+# rbenv
+#
+eval "$(rbenv init -)"
