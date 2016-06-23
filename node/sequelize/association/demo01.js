@@ -9,8 +9,10 @@ const seq = new Seq('mysql://root:@127.0.0.1:3306/sequelize_test', {
 });
 
 const User = seq.define('user', {
-  name: Seq.STRING
+  name: Seq.STRING,
+  age: Seq.INTEGER
 });
+
 const Task = seq.define('task', {
   name: Seq.STRING
 });
@@ -25,16 +27,40 @@ User.hasMany(Tool, {
 });
 
 const main = co.wrap(function*() {
-  yield seq.sync();
+  yield seq.sync({
+    force: true
+  });
   console.log('sync done');
 
   {
-    const sql = 'SELECT `task`.`id`, `task`.`name`, `task`.`createdAt`, `task`.`updatedAt`, `task`.`userId`, `user`.`id` AS `user.id`, `user`.`name` AS `user.name`, `user`.`createdAt` AS `user.createdAt`, `user`.`updatedAt` AS `user.updatedAt` FROM `task` AS `task` LEFT OUTER JOIN `user` AS `user` ON `task`.`userId` = `user`.`id`;';
-    const records = yield Task.findAll({
-      include: [User]
-    });
-    console.log(records);
+    // const sql = 'SELECT `task`.`id`, `task`.`name`, `task`.`createdAt`, `task`.`updatedAt`, `task`.`userId`, `user`.`id` AS `user.id`, `user`.`name` AS `user.name`, `user`.`createdAt` AS `user.createdAt`, `user`.`updatedAt` AS `user.updatedAt` FROM `task` AS `task` LEFT OUTER JOIN `user` AS `user` ON `task`.`userId` = `user`.`id`;';
+    // const records = yield Task.findAll({
+    //   include: [User]
+    // });
+    // console.log(records);
   }
+
+  // discover Model
+  // console.dir(User);
+
+  {
+    const u = yield User.create({
+      name: 'foo-' + Date.now(),
+      age: 18
+    });
+
+    yield u.increment('age', {
+      by: 2
+    });
+
+    console.log(u.get({
+      plain: true
+    }));
+
+    yield u.reload();
+    console.log(u.get({ plain: true }));
+  }
+
 });
 
 main().catch(console.error);
