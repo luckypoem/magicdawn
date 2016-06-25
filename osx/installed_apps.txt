@@ -1,7 +1,7 @@
 total 64
-drwxrwxr-x+ 91 root       admin   3094  6 21 21:04 .
+drwxrwxr-x+ 93 root       admin   3162  6 24 20:49 .
 drwxr-xr-x  32 root       wheel   1156  5 22 14:16 ..
--rw-rw-r--   1 root       admin  26628  6 20 18:47 .DS_Store
+-rw-rw-r--   1 root       admin  26628  6 23 22:19 .DS_Store
 -rw-r--r--   1 root       wheel      0  8  1  2015 .localized
 drwxr-xr-x   3 magicdawn  staff    102 10 31  2014 AliWangwang.app
 drwxr-xr-x@  3 root       wheel    102  5 20 23:39 App Store.app
@@ -54,7 +54,7 @@ drwxr-xr-x@  3 magicdawn  admin    102  2 24 23:17 PopClip.app
 drwxr-xr-x@  3 root       wheel    102  5 20 23:39 Preview.app
 drwxr-xr-x   3 root       wheel    102  5 20 23:08 QQ.app
 drwxr-xr-x@  3 magicdawn  admin    102 10  9  2015 QQMacMgr.app
-drwxr-xr-x   3 root       wheel    102  6 21 21:02 QQMusic.app
+drwxr-xr-x   3 root       wheel    102  6 24 20:49 QQMusic.app
 drwxr-xr-x@  3 root       wheel    102  5 20 23:39 QuickTime Player.app
 drwxr-xr-x@  3 magicdawn  admin    102  1  1  2014 Rar Sharp.app
 drwxr-xr-x   3 magicdawn  staff    102  1 12 03:33 RecordIt.app
@@ -69,7 +69,7 @@ drwxr-xr-x@  3 root       wheel    102  5 20 23:39 Stickies.app
 drwxr-xr-x@  3 magicdawn  admin    102  5 13 08:25 Sublime Text.app
 drwxrwxr-x@  3 root       wheel    102  5  7 05:48 System Preferences.app
 drwxr-xr-x@  3 root       wheel    102  5 20 23:39 TextEdit.app
-drwxr-xr-x@  3 magicdawn  admin    102  5 31 17:09 Thunder.app
+drwxr-xr-x   3 magicdawn  admin    102  6 15 14:07 Thunder.app
 drwxr-xr-x@  3 root       wheel    102  5  7 05:48 Time Machine.app
 drwxr-xr-x   3 root       admin    102  5 22 02:31 TotalFinder.app
 drwxr-xr-x+ 23 root       admin    782  6 18 13:58 Utilities
@@ -79,7 +79,9 @@ drwxr-xr-x   3 root       wheel    102  5  6 20:47 WeChat.app
 drwxr-xr-x@  3 magicdawn  admin    102  3 30 18:43 WebStorm.app
 drwxr-xr-x   3 root       wheel    102  5  7 05:05 Xcode.app
 drwxr-xr-x   3 root       wheel    102  6 21 21:01 YoudaoNote.app
+drwxrwxr-x  16 root       admin    544  6 24 15:14 astah community
 drwxr-xr-x+  3 root       wheel    102  5 20 23:39 iBooks.app
+drwxr-xr-x@  3 magicdawn  admin    102  6 22 16:30 iPic.app
 drwxr-xr-x   3 magicdawn  staff    102  6 18 14:23 iTerm.app
 drwxr-xr-x+  3 root       wheel    102  6  3 17:46 iTunes.app
 lrwxr-xr-x   1 magicdawn  admin     26  5  8 08:30 mpv.app -> /usr/local/opt/mpv/mpv.app

@@ -103,6 +103,11 @@ for x in patch minor major; do
   alias npm-$x="npm version $x && npm publish && gp origin --all && gp origin --tags"
 done
 
+# install cnpm
+npm-i-cnpm(){
+  npm install -g cnpm --registry=https://registry.npm.taobao.org
+}
+
 ## npm proxy
 # 1. npm -> 8000(http) -> 1080(shadowsocks) -> npm_registry
 function npm-proxy(){
@@ -130,8 +135,8 @@ function npm-proxy(){
 }
 
 # NVM
-export NODEJS_ORG_MIRROR="http://npm.taobao.org/mirrors/node/"
-export IOJS_ORG_MIRROR='http://npm.taobao.org/mirrors/iojs'
+export NVM_NODEJS_ORG_MIRROR="http://npm.taobao.org/mirrors/node/"
+export NVM_IOJS_ORG_MIRROR='http://npm.taobao.org/mirrors/iojs'
 
 # DOT_FILES
 # Example: wget -q $DOT_FILES/.eslintrc
