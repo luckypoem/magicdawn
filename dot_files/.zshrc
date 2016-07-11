@@ -6,8 +6,8 @@ export ZSH=/Users/magicdawn/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 # ZSH_THEME="robbyrussell"
-ZSH_THEME="steeef"
-# ZSH_THEME="ys"
+# ZSH_THEME="steeef"
+ZSH_THEME="ys"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -51,7 +51,7 @@ ZSH_THEME="steeef"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git node npm gulp brew fasd hub)
+plugins=(git node npm gulp brew fasd hub httpie)
 
 # User configuration
 
@@ -163,7 +163,6 @@ export CLASS_PATH="$JAVA_HOME/lib"
 #
 export PATH=$PATH:.
 
-
 #
 # try to be humble
 #
@@ -181,3 +180,14 @@ fi
 # rbenv
 #
 eval "$(rbenv init -)"
+
+#
+# dotnet
+#
+export PATH="$PATH:/usr/local/share/dotnet"
+
+#
+# baiduyun
+# 默认就是
+# --conf-path=$HOME/.aria2/aria2.conf
+alias aria2c-rpc='aria2c --enable-rpc --rpc-allow-origin-all'
