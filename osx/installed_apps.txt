@@ -1,7 +1,7 @@
 total 3312
 drwxrwxr-x+ 101 root       admin     3434  7 10 22:09 .
 drwxr-xr-x   32 root       wheel     1156  5 22 14:16 ..
--rw-rw-r--    1 root       admin    28676  7 10 22:10 .DS_Store
+-rw-rw-r--    1 root       admin    28676  7 11 19:28 .DS_Store
 -rw-r--r--    1 root       wheel        0  8  1  2015 .localized
 drwxr-xr-x@   3 magicdawn  admin      102  6  1 01:03 Alfred 3.app
 drwxr-xr-x    3 magicdawn  staff      102 10 31  2014 AliWangwang.app
@@ -63,7 +63,7 @@ drwxr-xr-x@   3 magicdawn  admin      102 10  9  2015 QQMacMgr.app
 drwxr-xr-x    3 root       wheel      102  6 24 20:49 QQMusic.app
 drwxr-xr-x@   3 root       wheel      102  5 20 23:39 QuickTime Player.app
 drwxr-xr-x@   3 magicdawn  admin      102  1  1  2014 Rar Sharp.app
-drwxr-xr-x    3 magicdawn  staff      102  1 12 03:33 RecordIt.app
+drwxr-xr-x    3 magicdawn  staff      102  1 12  2016 RecordIt.app
 drwxr-xr-x@   3 root       wheel      102  5 20 23:39 Reminders.app
 drwxr-xr-x    3 magicdawn  staff      102  6  5 21:43 Robomongo.app
 drwxr-xr-x    3 root       wheel      102  6 21 21:04 SHPlayer.app

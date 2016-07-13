@@ -1,6 +1,3 @@
-# use babel
-# parser: babel-eslint
-
 # root
 root: true
 
@@ -8,6 +5,7 @@ root: true
 env:
   node: true
   mocha: true
+  es6: true
 
 # rules
 rules:
@@ -22,6 +20,7 @@ rules:
   no-var: 2 # ES6 let & const
   no-const-assign: 2
   strict: [2, global] # 'use strict'
+  comma-dangle: [error, only-multiline]
 
   # 大括号
   curly: [2, multi-line] # 需要大括号
@@ -30,9 +29,7 @@ rules:
   # disable default
   no-unused-vars: 0 # 已定义, 未使用
   no-console: 0 # console
-
-  # space
-  # 有 jsbeautify 保持风格
+  no-unreachable: off
 
 parserOptions:
   ecmaVersion: 6
